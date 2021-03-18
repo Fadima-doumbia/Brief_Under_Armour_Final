@@ -17,8 +17,189 @@
 
 
 /* -------------------------------------------------main nasser debut ----------------------------------------------------------------- */
+    
+body{
+    cursor: pointer;
+}
+
+.debut{
+    text-align: center;
+}
+.taille{
+    width: 96%;
+    display: block;
+    margin: 0 2%;
+    padding: 0;
+    font-size: 1.72vw;
+    font-size: 45px;
+    color: #1d1d1d;
+    font-family: Armour_W_XBd,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none;
+
+}
+.performance{
+    width: 96%;
+    display: block;
+    margin: 0 2%;
+    font-size: 5vw;
+    font-size: 25px;
+    color: #1d1d1d;
+    font-family: ArmourCD_W_Md,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: none;
+}
+.btn{
+    text-align: center;
+    margin: 20px 2px;
+    padding: 5px;
+    border-radius: 10%;
+    background-color:white;
+    color: black;
+}
+.btn:hover{
+    color: white;
+    background-color:black;
+}
+
+.bloc_content{
+    display: flex;
+    margin: 10px;
+}
+.bloc_img1{
+    width: 30%;
+    height: 250px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    position: relative;
+
+}
+.bloc_img2{
+    width: 30%;
+    height: 250px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    position: relative;
+
+}
+.bloc_img3{
+    width: 30%;
+    height: 250px;
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    position: relative;
+
+}
+.bloc_img1 img:hover, .bloc_img2 img:hover, .bloc_img3:hover{
+filter:brightness(0.5);
+transition: all 0.5s ease-out;
+}
+img{
+    height: 300px;
+    width: 425px;
+    
+}
+
+ .bouton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+} 
+.titre-partie1{
+    text-align: center;
+    font-family: Armour_W_XBd,Arial,sans-serif;
+    font-size: 25px;
+    margin: 10px 0 5px;
+}
+.titre-part1{
+    text-align: center;
+    text-align: center;
+    top: initial;
+    color: #1d1d1d;
+    line-height: 1;
+    font-weight: 400;
+   
+}
+.bouton:hover{
+    color:#1d1d1d;
+    background-color: white;
+    transition: all 0.5s ease-out; 
+
+}
+.text1{
+    text-align: center;
+    font-family: Armour_W_XBd,Arial,sans-serif;
+    font-size: 25px;
+    margin: 10px 0 5px;
+}
+.texto{
+    text-align: center;
+    top: initial;
+    color: #1d1d1d;
+    line-height: 1;
+    font-weight: 400;
+}
+.golf{
+    text-align: center;
+    font-family: Armour_W_XBd,Arial,sans-serif;
+    font-size: 25px;
+    margin: 10px 0 5px;
+}
+.chauss{
+    text-align: center;
+    top: initial;
+    color: #1d1d1d;
+    line-height: 1;
+    font-weight: 400;  
+}
+ul{
+    list-style: none;
+    height: auto;
+    width: 30%;
+    font-size: 25px;
+
+}
+.display{
+    display: flex;
+    
+}
+li{
+    font-size: medium;
+}
+.last{
+    display: flex;
+}
 
 
+.last img{
+    display: flex;
+    width: 90%;
+    height: 55%;
+}
+
+.entete{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+/* Version mobile */
+@media screen and (min-width:680px){
+    .debut{
+        text-align: center;
+    }
+
+}
 
 /* -------------------------------------------------main nasser fin----------------------------------------------------------------- */
 
