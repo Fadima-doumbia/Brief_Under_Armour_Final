@@ -1,3 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+i{
+    background-color: rgb(255, 0, 0);
+    opacity: 4;
+}
+
+
 @media screen and (min-width :400px) {
     /* medias queri desktop */
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -25,7 +37,207 @@
 /* ------------------------------------------------------------------------------------------------------------------ */
 /* -------------------------------------------------footer debut----------------------------------------------------------------- */
 
+    .aside__avis{
+        display: flex;
+        width: 40%;
+        height: 300px;
+        position: relative;
+        left: 60%;
+    }
 
+    .avis{
+    position: absolute;
+    width: 97%;
+    height: 300px;
+    background-color:white;
+    border: solid gray 2px;
+    overflow: scroll;
+    right: 0;
+    }
+    .close{
+        display: none;
+    }
+
+    /* .avis{
+        width: 400px;
+        height: 300px;
+        background-color: white;
+        border: solid gray 1px;
+        overflow: scroll;
+        padding: 5px; */
+        /* left: 55%; */
+        /* margin-left: 55%; */
+        /* margin: 0px 0px 10px 68%; */
+        /* display: none;
+        /* display: none; */
+    /* } */
+    img{
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .avis p{
+        text-align: left;
+        padding: 30px 0px;
+    }
+
+    .avis__close{
+        border: none;
+        /* margin: 0 0 10px 90%; */
+        font-size: 30px;
+        background-color: white;
+        position: absolute;
+        right: 25px;
+    }
+
+    .avis__next{
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 60px;
+        border-radius: 5px;
+        margin: 0 0 40px 80%;
+    }
+
+    .avis a{
+        text-decoration: underline;
+        padding: 40px;
+        margin: 10px;
+        text-align: center;
+    }
+
+
+
+footer{
+    height: auto;
+    width: 100%;
+    padding: 0px 10px;
+    color: #1D1D1D;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+}
+.info__mobile{
+    display: none;
+}
+.info__mobile li{
+    padding: 0px 10px;
+}
+ul{
+    padding: 0px 10px;
+}
+li{
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+}
+
+article{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+.copyR h6{
+    display: flex;
+    font-style: normal;
+}
+
+.copyright__Container{
+    display: none;
+}
+
+.copyright__Container1{
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    font-size: smaller;
+}
+
+a{
+    text-decoration: none;
+    color: #1D1D1D;
+    display: flex;
+}
+
+
+.form__container{
+    text-align: center;
+}
+
+.form__container a{
+    text-decoration: none;
+    color: #1D1D1D;
+
+}
+.maDiv{
+    height: auto;
+    width: auto;
+    margin: 10px 47%;
+    /* background-color: wheat; */
+    position: relative;
+}
+.footer__form--button{
+    height: 44px;
+    width: 13%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin: 0px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.footer__form--button span{
+    width: 80%;
+}
+.footer__form--inputMail{
+    width: 40%;
+    height: 44px;
+    border-radius: 5px;
+
+}
+
+.icon-play{
+    height: 17px;
+    width: 17px;
+    fill: #fff;
+    vertical-align: -2px;
+}
+
+.footer__form{
+    padding: 15px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.footer__form--input{
+    margin: 5px 0px 25px 0px;
+    width: 80%;
+}
+.footer__form--label{
+    text-align: left;
+}
+
+.info__container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.info__container article{
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+
+.info__container ul{
+    text-align: left;
+}
+
+.info__container ul li, .info__container .titre{
+    text-align: left;
+}
 
 /* -------------------------------------------------footer fin----------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -42,6 +254,7 @@
 
 
 }
+
 @media screen and (max-width :400px) {
     /* medias queri telephone */
     /* -----------------------------------------------header debut------------------------------------------------------------------- */ 
@@ -60,6 +273,183 @@
     
     /* ------------------------------------------------------------------------------------------------------------------ */
     /* -------------------------------------------------footer debut----------------------------------------------------------------- */
+   
+        .bouton__donner--avis{
+        background: rgb(39, 39, 39);
+        color: rgb(255, 255, 255);
+        position: fixed;
+        visibility: visible;
+        cursor: pointer;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        bottom: 503px;
+        left: 278px;
+        width: 135px;
+        height: 35px;
+        padding: 10px;
+        transition: all 0.5s ease 0s;
+        /* z-index: -1; */ 
+        /* mettre un z-index 0 au debut et z-index 1 pour mon styki au scrool */
+        transform: rotateZ(270deg);
+        }
+    
+        .avis{
+            width: 100%;
+            height: 450px;
+            background-color:white;
+            border: solid gray 5px;
+            overflow: scroll;
+            padding: 5px;
+            display: none;
+            
+        }
+        .news{
+            display: block !important;
+        }
+        img{
+            width: 60px;
+            height: 60px;
+            margin-left: 20px;
+        }
+        .avis p{
+            text-align: left;
+            padding: 30px 0px;
+        }
+    
+        .avis__close{
+            border: none;
+            margin: 0 0 10px 90%;
+            font-size: 30px;
+            background-color: white;
+            position: absolute;
+            right: 25px;
+        }
+    
+        .avis__next{
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 60px;
+            border-radius: 5px;
+            margin: 0 0 40px 80%;
+        }
+    
+        .avis a{
+            text-decoration: underline;
+            padding: 80px;
+            margin: 10px;
+            text-align: center;
+        }
+    
+    
+    
+    
+        br{
+            border: 5px solid black;
+        }
+        footer{
+            height: auto;
+            width: 100%;
+            padding: 0px 10px;
+            color: #1D1D1D;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            background-color: #eee;
+        }
+        .info{
+            display: none;
+        }
+        .info__mobile{
+            display: block;
+            padding: 30px 10px;
+        }
+     
+        .info__mobile li{
+            padding: 0px 10px;
+            list-style: none;
+            text-align: center;
+            margin: 15px;
+        }
+        .footer__form{
+            padding: 15px;
+            font-size: smaller;
+        }
+        .footer__form--input{
+            margin: 5px 0px 25px 0px;
+        }
+        .footer__form--label{
+            text-align: left;
+        }
+        .footer__form--inputMail{
+            width: 80%;
+            height: 44px;
+            margin: 0px 10px 10px 0px;
+        }
+        .footer__form--button{
+            height: 44px;
+            width: 65px;
+            background-color: crimson;
+            color: white;
+            position: absolute;
+            margin: 0px 5px;
+            border: none;
+            border-radius: 4px;
+        }
+        .icon-play{
+            height: 17px;
+            width: 17px;
+            fill: #fff;
+            vertical-align: -2px;
+        }
+        span{
+            display: none;
+        }
+        .form__container{
+            text-align: center;
+        }
+        
+        .form__container a{
+            text-decoration: none;
+            color: #1D1D1D;
+        
+        }
+        .maDiv{
+            height: auto;
+            width: auto;
+            margin: 10px;
+            position: relative;
+        }
+        article{
+            display: block;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+        }
+        
+        li, a{
+            list-style: none;
+            text-decoration: none;
+            color: #1D1D1D;
+        }
+        .copyR h6{
+            text-align: center;
+            font-style: normal;
+        }
+    
+    
+        ul{
+            padding: 0px 10px;
+        }
+        li{
+            list-style: none;
+            text-align: center;
+            padding: 10px;   
+         }
+        .copyright__Container1{
+            display: none;
+        }
+    
     /* -------------------------------------------------footer fin----------------------------------------------------------------- */
     /* ------------------------------------------------------------------------------------------------------------------ */
 }
