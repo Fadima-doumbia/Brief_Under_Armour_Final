@@ -169,6 +169,11 @@ a{
     color: #1D1D1D;
 
 }
+
+.form__container span{
+    display: none;
+}
+
 .maDiv{
     height: auto;
     width: auto;
@@ -197,6 +202,7 @@ a{
     border-radius: 5px;
 
 }
+
 
 .icon-play{
     height: 17px;
