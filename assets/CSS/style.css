@@ -63,6 +63,12 @@ li:hover{
     border-radius: 5px;
     padding: 10px;
     background: no-repeat;
+    cursor: pointer;
+}
+
+.monBouton2:hover {
+    background-color: white;
+    color: black;
 }
 
 .DivC4 {
@@ -158,10 +164,6 @@ img {
     padding: 5px;  
 }
 
-.monBouton2:hover {
-    background-color: white;
-    color: black;
-}
  
 .DivC3 :hover {
     filter: brightness(0.5);
@@ -283,6 +285,7 @@ transition: all 0.5s ease-out;
     border: 1px solid white;
     color: white;
     background-color: transparent;
+    cursor: pointer;
 } 
 
 .titre-partie1 {
