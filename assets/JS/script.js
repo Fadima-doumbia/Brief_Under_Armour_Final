@@ -1,4 +1,4 @@
-const burger = document.querySelector('.menu-burger');
+const burger = document.getElementById('menu-burger');
 const menuUn = document.getElementById("menu_link");
 const menuDeux = document.getElementById("class_menu");
 const sousMenu1 = document.getElementById('sous_menu1');
@@ -8,11 +8,6 @@ const space1 = document.getElementById("space1");
 const space2 = document.getElementById("space2");
 const space3 = document.getElementById("space3");
 
-if(window.matchMedia("(min-width:777px").matches){
-    menuUn.classList.remove('active_menu');
-    menuDeux.classList.remove('active_menu1');
-    monBonMenu.classList.remove('monSousM');
-} else {
     burger.addEventListener('click',() => { 
         burger.classList.toggle('active');
         sousMenu1.appendChild(menuDeux);
@@ -22,6 +17,4 @@ if(window.matchMedia("(min-width:777px").matches){
         monBonMenu.classList.toggle('monSousM');
         space1.classList.toggle('space1');
         space2.classList.toggle('space2');
-        space3.classList.toggle('space3');
 })
-}
