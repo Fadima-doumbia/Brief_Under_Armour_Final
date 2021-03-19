@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+li:hover{
+    color: crimson;
+}
+
 
 @media screen and (min-width :400px) {
     /* medias queri desktop */
@@ -64,6 +68,7 @@
 .DivC4 {
     text-align: center;
     width: 679px;
+    margin: 2% 0 5% 0;
 }
 
 .SecC2 {
@@ -73,6 +78,7 @@
 .DivC5 {
     text-align: center;
     width: 679px;
+    margin: 2% 0 5% 0;
 }
 
 .Btndeb {  
@@ -228,7 +234,7 @@ img {
     display: flex;
     justify-content: space-around;
     margin: 10px;
-    padding-bottom: 9%;
+    padding-bottom: 20%;
 }
 
 .bloc_img1 {
@@ -307,12 +313,6 @@ transition: all 0.5s ease-out;
 }
 
 .texto {
-    /* text-align: center;
-    top: initial;
-    color: #1d1d1d;
-    line-height: 1;
-    font-weight: 400; */
-    
     padding: 3% 0;
     font-size: 15px;
     color: #1D1D1D;
@@ -349,15 +349,16 @@ ul {
 
 .bloc_contentt {
     position: relative;
-    padding: 7%;
+    padding: 5%;
     padding-bottom: 5%;
     margin-top: 50px;
+    margin-top: 15%;
 }
 
 .display {
     display: flex;
     padding-bottom: 7%;
-    padding-top: 10%; 
+    padding-top: 5%; 
     width: 90%;
     margin: auto; 
 }
@@ -485,7 +486,11 @@ footer ul{
 footer li{
     list-style: none;
     text-align: center;
-    margin: 15px 0;
+    margin: 14px 0;
+}
+
+footer li:hover{
+    color: crimson;
 }
 
 footer article{
